@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Page 4 of 5 for Guia - page 4 | Guia</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Guia - page 4" />
+<meta name="author" content="Pete Seth" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Customer helpdesk Jekyll theme." />
+<meta property="og:description" content="Customer helpdesk Jekyll theme." />
+<link rel="canonical" href="http://localhost:4000/customization/development/4/" />
+<meta property="og:url" content="http://localhost:4000/customization/development/4/" />
+<meta property="og:site_name" content="Guia" />
+<meta property="og:type" content="website" />
+<link rel="prev" href="http://localhost:4000/customization/development/3/" />
+<link rel="next" href="http://localhost:4000/customization/development/5/" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Guia - page 4" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Pete Seth"},"description":"Customer helpdesk Jekyll theme.","headline":"Guia - page 4","url":"http://localhost:4000/customization/development/4/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="http://localhost:4000/uploads/"/>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="shortcut icon" type="image/png" href="/uploads/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="Guia" href="/feed.xml">
+  <script src="/assets/js/main.js"></script>
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,500&display=swap" rel="stylesheet">
+
+  
+</head>
+
+    <body>
+
+    
+
+
+
+
+
+
+<header class="uk-background-center-center uk-background-norepeat uk-background-cover uk-background-blend-overlay"
+  style=" background-image: url(https://via.placeholder.com/1728x600);">
+  
+<nav class="uk-navbar-container uk-light">
+	<div class="uk-container">
+		<div data-uk-navbar>
+			<div class="uk-navbar-left">
+				<a class="uk-navbar-item uk-logo uk-visible@m" href="/">Guia</a>
+				
+				<a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-posts" data-uk-toggle><span
+						data-uk-navbar-toggle-icon></span> <span
+						class="uk-margin-small-left">Categories</span></a>
+				
+
+				<ul class="uk-navbar-nav uk-visible@m">
+					
+			</ul>
+		</div>
+		<div class="uk-navbar-center uk-hidden@m">
+			<a class="uk-navbar-item uk-logo" href="/">Guia</a>
+		</div>
+		<div class="uk-navbar-right">
+			<ul class="uk-navbar-nav uk-visible@m">
+				
+				
+				
+				
+				
+				
+				<li><a href="/" >Home</a></li>
+					
+		
+		
+		
+				
+				
+				
+				
+				
+				<li><a href="/changelog-posts/" >Changelog</a></li>
+					
+		
+		
+		
+				
+				
+				
+				
+				
+				<li><a href="/contact/" >Contact</a></li>
+					
+		
+		
+		
+		</ul>
+
+		
+		<a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span
+				data-uk-navbar-toggle-icon></span> <span
+				class="uk-margin-small-left">Menu</span></a>
+		
+
+	</div>
+	</div>
+	</div>
+</nav>
+  <div class="uk-section uk-section-small uk-position-relative uk-position-z-index" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+    <div class="uk-container">
+      
+      
+      
+      <div class="hero-search uk-margin-bottom">
+        <!-- Html Elements for Search -->
+        <div class="uk-position-relative">
+          <div class=" uk-light">
+            <form
+              class="uk-search uk-search-default uk-width-1-1"
+              name="search-hero" onsubmit="return false;">
+              <span data-uk-search-icon="ratio: 1.2"></span>
+              <input id="search-hero" class="uk-search-input uk-form-large uk-border-rounded" type="search"
+                placeholder="Search for answers"
+                autocomplete="off" aria-label="Search for answers">
+            </form>
+          </div>
+          <ul id="search-hero-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+        </div>
+        <script>
+          SimpleJekyllSearch({
+            searchInput: document.getElementById('search-hero'),
+            resultsContainer: document.getElementById('search-hero-results'),
+            noResultsText: '<li class="no-results">No results found</li>',
+            searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+            json: "/search.json"
+          });
+          searchResults("search-hero");
+        </script>
+      </div>
+      
+    </div>
+  </div>
+</header>
+
+    <div class="uk-section uk-section-muted">
+  <div class="uk-container">
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+          
+          <ul class="uk-breadcrumb">
+            <li><a href="/">Help Center</a></li>
+            
+              <li><a href="/#customization">Customization</a></li>
+            
+            <li><span>Development</span></li>
+          </ul>
+          <div class="uk-grid-small" data-uk-grid>
+            <div class="uk-width-auto uk-text-primary">
+              <span class="uk-margin-xsmall-top" data-uk-icon="icon: code; ratio: 2.6"></span>
+            </div>
+            <div class="uk-width-expand">
+              <h1 class="uk-article-title uk-margin-remove">Development</h1>
+              <p class="uk-text-lead uk-text-muted uk-margin-small-top">Interactively engage professional total linkage whereas enterprise catalysts</p>
+            </div>
+          </div>
+          
+    
+    <div class="uk-margin-medium-top">
+      
+        <div class="uk-card uk-card-category uk-card-default uk-card-hover uk-card-body uk-inline uk-border-rounded uk-width-1-1">
+          <a class="uk-position-cover" href="/setup/basics/navigation/"></a>
+          <h3 class="uk-card-title uk-margin-remove uk-text-primary">Navigation bar</h3>
+          <p class="uk-margin-small-top">Intrinsicly maximize unique infomediaries without an expanded array of mindshare. Credibly disseminate 
+            resource sucking customer service through functionalized schemas.</p>
+          <div class="uk-article-meta uk-flex uk-flex-middle">
+            
+            
+              
+              <img class="uk-border-circle uk-avatar-small" data-src="https://via.placeholder.com/80x80" src="https://via.placeholder.com/80x80" alt="Sara Galen" data-uk-img>
+            
+            <div>
+              
+                Written by Sara Galen<br>
+              
+              <time datetime="2019-12-10T00:00:00-08:00">
+                
+                Dec 10, 2019
+              </time>
+            </div>
+          </div>
+        </div>
+      
+        <div class="uk-card uk-card-category uk-card-default uk-card-hover uk-card-body uk-inline uk-border-rounded uk-width-1-1">
+          <a class="uk-position-cover" href="/setup/content/pages/"></a>
+          <h3 class="uk-card-title uk-margin-remove uk-text-primary">Example of a page with table of contents</h3>
+          <p class="uk-margin-small-top">Intrinsicly maximize unique infomediaries without an expanded array of mindshare. Credibly disseminate 
+            resource sucking customer service through functionalized schemas.</p>
+          <div class="uk-article-meta uk-flex uk-flex-middle">
+            
+            
+              
+              <img class="uk-border-circle uk-avatar-small" data-src="https://via.placeholder.com/80x80" src="https://via.placeholder.com/80x80" alt="Pete Seth" data-uk-img>
+            
+            <div>
+              
+                Written by Pete Seth<br>
+              
+              <time datetime="2019-12-10T00:00:00-08:00">
+                
+                Dec 10, 2019
+              </time>
+            </div>
+          </div>
+        </div>
+      
+        <div class="uk-card uk-card-category uk-card-default uk-card-hover uk-card-body uk-inline uk-border-rounded uk-width-1-1">
+          <a class="uk-position-cover" href="/setup/content/posts/"></a>
+          <h3 class="uk-card-title uk-margin-remove uk-text-primary">Creating your first post in Jekyll</h3>
+          <p class="uk-margin-small-top">Intrinsicly maximize unique infomediaries without an expanded array of mindshare. Credibly disseminate 
+            resource sucking customer service through functionalized schemas.</p>
+          <div class="uk-article-meta uk-flex uk-flex-middle">
+            
+            
+              
+              <img class="uk-border-circle uk-avatar-small" data-src="https://via.placeholder.com/80x80" src="https://via.placeholder.com/80x80" alt="Pete Seth" data-uk-img>
+            
+            <div>
+              
+                Written by Pete Seth<br>
+              
+              <time datetime="2019-12-10T00:00:00-08:00">
+                
+                Dec 10, 2019
+              </time>
+            </div>
+          </div>
+        </div>
+      
+        <div class="uk-card uk-card-category uk-card-default uk-card-hover uk-card-body uk-inline uk-border-rounded uk-width-1-1">
+          <a class="uk-position-cover" href="/customization/development/sass/"></a>
+          <h3 class="uk-card-title uk-margin-remove uk-text-primary">Customize SASS</h3>
+          <p class="uk-margin-small-top">Intrinsicly maximize unique infomediaries without an expanded array of mindshare. Credibly disseminate 
+            resource sucking customer service through functionalized schemas.</p>
+          <div class="uk-article-meta uk-flex uk-flex-middle">
+            
+            
+              
+              <img class="uk-border-circle uk-avatar-small" data-src="https://via.placeholder.com/80x80" src="https://via.placeholder.com/80x80" alt="Evan Wells" data-uk-img>
+            
+            <div>
+              
+                Written by Evan Wells<br>
+              
+              <time datetime="2019-12-10T00:00:00-08:00">
+                
+                Dec 10, 2019
+              </time>
+            </div>
+          </div>
+        </div>
+      
+        <div class="uk-card uk-card-category uk-card-default uk-card-hover uk-card-body uk-inline uk-border-rounded uk-width-1-1">
+          <a class="uk-position-cover" href="/setup/basics/setup/"></a>
+          <h3 class="uk-card-title uk-margin-remove uk-text-primary">Basic theme setup</h3>
+          <p class="uk-margin-small-top">Intrinsicly maximize unique infomediaries without an expanded array of mindshare. Credibly disseminate 
+            resource sucking customer service through functionalized schemas.</p>
+          <div class="uk-article-meta uk-flex uk-flex-middle">
+            
+            
+              
+              <img class="uk-border-circle uk-avatar-small" data-src="https://via.placeholder.com/80x80" src="https://via.placeholder.com/80x80" alt="Sara Galen" data-uk-img>
+            
+            <div>
+              
+                Written by Sara Galen<br>
+              
+              <time datetime="2019-12-10T00:00:00-08:00">
+                
+                Dec 10, 2019
+              </time>
+            </div>
+          </div>
+        </div>
+      
+    </div>
+    
+      <div class="uk-text-center uk-margin-medium-top">
+        <ul class="uk-pagination uk-flex-center">
+          
+            <li><a class="hvr-back uk-text-primary" href="/customization/development/3/">&larr; Previous</a></li>
+          
+          
+            <li class="uk-margin-medium-left"><a class="hvr-forward uk-text-primary" href="/customization/development/5/">Next &rarr;</a></li>
+          
+        </ul>      
+      </div>    
+    
+  </div>
+</div>
+
+    <div id="offcanvas-posts" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+        <h5 class="uk-margin-top">Getting Started</h5>
+        <ul class="uk-nav uk-nav-default post-nav">
+        
+          <li class=""><a href="/setup/basics/">Basic Setup</a></li>
+        
+          <li class=""><a href="/setup/content/">Managing Content</a></li>
+        
+          <li class=""><a href="/setup/features/">Theme Features</a></li>
+        
+          <li class=""><a href="/setup/translation/">Translation</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Customization</h5>
+        <ul class="uk-nav uk-nav-default post-nav">
+        
+          <li class="uk-active"><a href="/customization/development/">Development</a></li>
+        
+          <li class=""><a href="/customization/help/">Sources & Help</a></li>
+        
+        </ul>
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/">Guia</a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top uk-text-center">
+            
+                
+
+                
+
+                
+                    <li><a href="/" >Home</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/changelog-timeline/" >Changelog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-primary" href="/contact/" >Contact</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank" rel="noopener" aria-label="twitter"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank" rel="noopener" aria-label="facebook"></a>
+</div>
+
+
+
+
+<div>
+    <a href="https://www.instagram.com/" data-uk-icon="icon: instagram" class="uk-icon-link uk-icon" target="_blank" rel="noopener" aria-label="instagram"></a>
+</div>
+
+
+
+
+
+<div>
+    <a href="https://vimeo.com/" data-uk-icon="icon: vimeo" class="uk-icon-link uk-icon" target="_blank" rel="noopener" aria-label="vimeo"></a>
+</div>
+
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    <footer class="uk-section uk-text-center uk-text-muted">
+    <div class="uk-container uk-container-small">
+
+        <div>
+            <ul class="uk-subnav uk-flex-center">
+                
+                    
+                    
+                    
+                        <li><a href="/" >Home</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="/changelog-timeline/" >Changelog</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="/contact/" >Contact</a></li>
+                    
+                
+            </ul>
+        </div>
+        <div class="uk-margin-medium">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank" rel="noopener" aria-label="twitter"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon" target="_blank" rel="noopener" aria-label="facebook"></a>
+</div>
+
+
+
+
+<div>
+    <a href="https://www.instagram.com/" data-uk-icon="icon: instagram" class="uk-icon-link uk-icon" target="_blank" rel="noopener" aria-label="instagram"></a>
+</div>
+
+
+
+
+
+<div>
+    <a href="https://vimeo.com/" data-uk-icon="icon: vimeo" class="uk-icon-link uk-icon" target="_blank" rel="noopener" aria-label="vimeo"></a>
+</div>
+
+
+
+
+
+
+            </div>
+        </div>
+        <div class="uk-margin-medium uk-text-small copyright link-secondary">Made by <a href="https://unbound.studio/">Unbound Studio</a> in Antigua, Guatemala.</div>
+
+    </div>
+</footer>
+
+
+    
+
+    </body>
+
+</html>
