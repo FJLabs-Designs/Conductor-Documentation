@@ -22,8 +22,8 @@ This spawns a server that will be accessible via `http://localhost:4000` in your
 
 ## Deployment
 
-Our docs are deployed using [Cloudflare Pages](https://pages.cloudflare.com). Every commit pushed to production will automatically deploy to [developers.cloudflare.com](https://developers.cloudflare.com), and any pull requests opened will have a corresponding staging URL available in the pull request comments.
+Our docs are deployed using [Cloudflare Pages](https://pages.cloudflare.com). Every commit pushed to `main` will automatically deploy to [developers.cloudflare.com](https://developers.cloudflare.com), and any pull requests opened will have a corresponding staging URL available in the pull request comments.
 
 ## License and Legal Notices
 
-Except as otherwise noted, FJLaboratories, FJLabs-Designs, and any contributors grant you a license to the FJLaboratories Conductor Documentation and other content in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode), see the [LICENSE file](https://github.com/fjlabs-designs/conductor-documentation/blob/production/LICENSE), and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the [LICENSE-CODE file](https://github.com/fjlabs-designs/conductor-documentation/blob/production/LICENSE-CODE).
+Except as otherwise noted, FJLaboratories, FJLabs-Designs, and any contributors grant you a license to the FJLaboratories Conductor Documentation and other content in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode), see the [LICENSE file](https://github.com/fjlabs-designs/conductor-documentation/blob/main/LICENSE), and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the [LICENSE-CODE file](https://github.com/fjlabs-designs/conductor-documentation/blob/main/LICENSE-CODE).
