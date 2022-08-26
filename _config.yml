@@ -25,7 +25,7 @@ logo:
 author:
     name:           Felix Jen
     title:          Lead Engineer  
-    avatar:         /uploads/fjlabs-logo.png
+    avatar:         /fjlabs-logo.png
 
 # Social icons displayed in footer
 social:
@@ -50,7 +50,7 @@ share:
     facebook:       true # Enable by setting true (Facebook handle not required)
 
 header:
-  image: https://via.placeholder.com/1728x600
+  image: pattern.svg
   # background: "rgba(0, 0, 0, 0.5)"
   color: light
   search: true
@@ -79,7 +79,7 @@ uploads:            /uploads/
 markdown:           kramdown
 highlighter:        rouge
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-gist

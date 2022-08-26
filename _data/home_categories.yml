@@ -6,35 +6,30 @@
 
     - permalink: /setup/basics/
       title: Basic Setup
-      desc: Get started fast with installation and theme setup instructions
+      desc: Get started with your Conductor with remapping instructions
       icon: cog
 
-    - permalink: /setup/content/
-      title: Managing Content
-      desc: Get help or tailor the theme to your specific requirements
-      icon: file-text
-
-    - permalink: /setup/features/
-      title: Theme Features
-      desc: Lean about all the theme options, features and how to use them
-      icon: settings
-
-    - permalink: /setup/translation/
-      title: Translation
-      desc: Lean about all the theme options, features and how to use them
+    - permalink: /setup/advanced/
+      title: Advanced Setup
+      desc: Learn about advanced setup such as firmware development
       icon: settings
       
-- title: Customization
+- title: Integrations
   subtitle:
-  category: customization
+  category: integrations
   categories:
 
-    - permalink: /customization/development/
-      title: Development
-      desc: Interactively engage professional total linkage whereas enterprise catalysts
+    - permalink: /integrations/basics/
+      title: Understanding Integrations
+      desc: Understand the basics of Conductor's deep integrations
       icon: code
 
-    - permalink: /customization/help/
-      title: Sources & Help
-      desc: Interactively engage professional total linkage whereas enterprise catalysts
-      icon: question
+    - permalink: /integrations/apps/
+      title: Pro App Integrations
+      desc: Check out existing integrations for your day to day applications
+      icon: paint-bucket
+
+    - permalink: /integrations/custom/
+      title: Custom Integrations
+      desc: Learn how to develop custom integrations for other applications
+      icon: file-text
