@@ -2,7 +2,7 @@
 
 **[View the docs →](https://conductor.fjlaboratories.com/)**
 
-[Contribute to the docs](https://github.com/cloudflare/cloudflare-docs/blob/production/CONTRIBUTING.md)
+[Contribute to the docs](https://github.com/fjlabs-designs/conductor-documentation/blob/main/CONTRIBUTING.md)
 
 ## Setup
 
@@ -22,7 +22,7 @@ This spawns a server that will be accessible via `http://localhost:4000` in your
 
 ## Deployment
 
-Our docs are deployed using [Cloudflare Pages](https://pages.cloudflare.com). Every commit pushed to `main` will automatically deploy to [developers.cloudflare.com](https://developers.cloudflare.com), and any pull requests opened will have a corresponding staging URL available in the pull request comments.
+Our docs are deployed using [Cloudflare Pages](https://pages.cloudflare.com). Every commit pushed to `main` will automatically deploy to [conductor.fjlaboratories.com](https://conductor.fjlaboratories.com), and any pull requests opened will have a corresponding staging URL available in the pull request comments.
 
 ## License and Legal Notices
 
