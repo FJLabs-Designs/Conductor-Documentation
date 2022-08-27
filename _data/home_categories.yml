@@ -4,6 +4,16 @@
   category: setup
   categories:
 
+    - permalink: /setup/basics/welcome-to-conductor/
+      title: First Steps
+      desc: Read me first to get acquainted with your Conductor
+      icon: star
+
+    - permalink: https://usevia.app/
+      title: Access VIA
+      desc: Access VIA to program your Conductor's various features
+      icon: refresh
+
     - permalink: /setup/basics/
       title: Basic Setup
       desc: Get started with your Conductor with remapping instructions
