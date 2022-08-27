@@ -29,7 +29,7 @@ $global-success-background: #32d296 !default;
 $alert-success-background: lighten(mix(white, $global-success-background, 40%), 25%) !default;
 $alert-success-color: $global-success-background !default;
 $global-warning-background: #faa05a !default;
-$alert-warning-background: lighten(mix(white, $global-warning-background, 45%), 15%) !default;
+$alert-warning-background: lighten(mix(white, $global-warning-background, 45%), 23%) !default;
 $alert-warning-color: $global-warning-background !default;
 $global-danger-background: #f0506e !default;
 $alert-danger-background: lighten(mix(white, $global-danger-background, 40%), 20%) !default;

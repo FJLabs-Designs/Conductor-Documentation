@@ -39,7 +39,7 @@
       desc: Check out existing integrations for your day to day applications
       icon: paint-bucket
 
-    - permalink: /integrations/custom/
-      title: Custom Integrations
-      desc: Learn how to develop custom integrations for other applications
+    - permalink: /integrations/advanced/
+      title: Advanced Integrations
+      desc: Learn how to develop advanced integrations using hidden features
       icon: file-text

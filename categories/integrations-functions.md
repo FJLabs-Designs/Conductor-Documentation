@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: /integrations/custom/
+permalink: /integrations/advanced/
 pagination: 
   enabled: true
   permalink: /:num/
