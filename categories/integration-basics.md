@@ -4,10 +4,6 @@ permalink: /integrations/basics/
 pagination: 
   enabled: true
   permalink: /:num/
-  categories:
-    values:
-      - integrations
-      - basics
-    matching: all
+  category: integrations, basics
 ---
 
