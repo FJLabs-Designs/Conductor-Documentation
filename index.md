@@ -18,7 +18,6 @@ header:
   multiple="true" 
   title="Frequently Asked Questions" 
   category="faq" 
-  subtitle="Got a question?" 
   section="muted" 
 %}
 
