@@ -181,6 +181,7 @@ strong { font-weight: $base-strong-font-weight; }
     font-size: $base-code-font-size;
     /* 3 */
     color: $base-code-color;
+    background: $base-code-background;
     white-space: nowrap;
     @if(mixin-exists(hook-base-code)) {@include hook-base-code();}
 }
@@ -512,6 +513,7 @@ blockquote footer {
 pre {
     font: $base-pre-font-size unquote("/") $base-pre-line-height $base-pre-font-family;
     color: $base-pre-color;
+    background-color: $base-pre-background !important;
     -moz-tab-size: 4;
     tab-size: 4;
     /* 1 */
