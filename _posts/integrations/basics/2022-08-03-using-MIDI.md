@@ -21,12 +21,12 @@ Control Change, or CC, messages consist of a "Control Change Message" and a valu
 
 | MIDI Assignment | CC Message |
 |-----------------|------------|
-| `A_CW/CCW` | 46 |
-| `B_CW/CCW` | 47 |
-| `C_CW/CCW` | 48 |
-| `D_CW/CCW` | 49 |
-| `E_CW/CCW` | 50 |
-| `F_CW/CCW` | 51 |
+| `A_CW/_CCW` | 46 |
+| `B_CW/_CCW` | 47 |
+| `C_CW/_CCW` | 48 |
+| `D_CW/_CCW` | 49 |
+| `E_CW/_CCW` | 50 |
+| `F_CW/_CCW` | 51 |
 
 {% include alert.html style="success" text='Knob control using MIDI (rotation) operates on a "twos complement" basis. That is, a clockwise rotation is set to a value of 1 and counterclockwise 127. Ensure your companion apps recognize "twos complement" encoding.' %}
 
