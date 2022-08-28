@@ -1,6 +1,6 @@
 ---
-title: Adobe Lightroom Classic
-description: Integrate into your Adobe Lightroom Classic workflow
+title: Adobe Lightroom Classic Integration with Conductor
+description: Integrate into your Adobe Lightroom Classic workflow using native MIDI control and keyboards shortcuts
 categories: [integrations, apps, keycodes, MIDI]
 ---
 
