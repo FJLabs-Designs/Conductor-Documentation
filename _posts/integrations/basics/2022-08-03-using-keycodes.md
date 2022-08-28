@@ -1,6 +1,6 @@
 ---
-title: Using Keycode Mode
-description: Learn about the various features of Keycode mode
+title: Using Conductor's Keycode Mode
+description: Utilize Conductor's Keycode mode to interface with existing keyboard shortcuts in all your apps. No additional tools required!
 categories: [integrations, basics]
 ---
 

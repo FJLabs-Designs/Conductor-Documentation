@@ -1,6 +1,6 @@
 ---
-title: Using MIDI Mode
-description: Learn about the various features of MIDI mode
+title: Using Conductor's MIDI Mode
+description: Leverage the power of Conductor's MIDI CC control mode to create native and deep integrations into your professional workflow applications like Lightroom and Premiere Pro
 categories: [integrations, basics]
 ---
 
