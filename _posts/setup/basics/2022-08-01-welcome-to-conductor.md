@@ -1,6 +1,6 @@
 ---
 title: Welcome to Conductor! — First Steps
-subtitle: Welcome to your Conductor! Learn about what's included in the box and how to get started customizing Conductor
+description: Welcome to your Conductor! Learn about what's included in the box and how to get started customizing Conductor
 categories: [setup, basics]
 ---
 

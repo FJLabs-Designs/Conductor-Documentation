@@ -1,6 +1,6 @@
 ---
 title: Types of integrations - Keycodes vs MIDI
-subtitle: Learn about the two different types of integration available on Conductor.
+description: Learn about the two different types of integration available on Conductor.
 categories: [integrations, basics]
 ---
 

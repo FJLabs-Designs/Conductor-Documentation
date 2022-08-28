@@ -1,6 +1,6 @@
 ---
 title: OBS Studio
-subtitle: Integrate into your OBS Studio workflow
+description: Integrate into your OBS Studio workflow
 categories: [integrations, apps, keycodes]
 ---
 

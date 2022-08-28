@@ -107,6 +107,7 @@ defaults:
       type:         posts
     values:
       layout:       post
+      image: /uploads/pattern.jpg
   # _pages
   - scope:
       path:         ""

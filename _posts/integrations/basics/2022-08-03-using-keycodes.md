@@ -1,6 +1,6 @@
 ---
 title: Using Keycode Mode
-subtitle: Learn about the various features of Keycode mode
+description: Learn about the various features of Keycode mode
 categories: [integrations, basics]
 ---
 

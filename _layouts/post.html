@@ -26,8 +26,8 @@ layout: default
           <div class="uk-article-meta uk-margin uk-flex uk-flex-middle">
             {% include post-meta.html %}
           </div>
-          {% if page.subtitle %}
-            <p class="uk-text-lead uk-text-muted">{{ page.subtitle }}</p>
+          {% if page.description %}
+            <p class="uk-text-lead uk-text-muted">{{ page.description }}</p>
           {% endif %}
           <div class="uk-article-content">
             {{ content }}
