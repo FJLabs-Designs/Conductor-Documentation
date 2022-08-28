@@ -4,6 +4,11 @@ description: Welcome to your Conductor! Learn about what's included in the box a
 categories: [setup, basics]
 ---
 
+### Table of Contents
+{:.no_toc}
+* TOC
+{:toc}
+
 We're so excited to joined the countless pros that use Conductor in their workflow. Now that you received Conductor and hopefully unboxed it, let's run through what should be included in the box.
 
 ### What's in the box?
@@ -41,3 +46,7 @@ While each Conductor leaves the factory with a fully tested PCB, it is important
 #### Take off!
 
 Once you've tested your PCB, you're ready to conduct your workflow in new ways! Check out our [existing integrations](/integrations/apps/) to see if your app already has a guide or learn more about [how to use Conductor in-depth](/setup/basics/).
+
+### Remap your Conductor!
+
+[Learn how to remap your Conductor using the powerful VIA software](/setup/basics/using-VIA/)
