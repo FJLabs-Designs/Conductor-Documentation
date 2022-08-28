@@ -34,12 +34,12 @@ As well, Conductor can assign Control Change messages to **pressing** the knob. 
 
 | MIDI Assignment | CC Message |
 |-----------------|------------|
-| `A Press` | 80 |
-| `B Press` | 81 |
-| `C Press` | 82 |
-| `D Press` | 83 |
-| `E Press` | 84 |
-| `F Press` | 85 |
+| `A_X (Press)` | 80 |
+| `B_X (Press)` | 81 |
+| `C_X (Press)` | 82 |
+| `D_X (Press)` | 83 |
+| `E_X (Press)` | 84 |
+| `F_X (Press)` | 85 |
 
 #### Note On/Off
 
